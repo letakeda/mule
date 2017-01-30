@@ -1,0 +1,23 @@
+#%RAML 0.8
+title: Employee
+version: 1.0
+
+/employee:
+  get:
+    responses:
+      200:
+        body:
+          application/json:
+            example: |
+                [
+                    {
+                      "first_name": "Leandro",
+                      "last_name": "Takeda",
+                      "address": "LAX",
+                      "phone": "SFO",
+                      "country": "May 21, 2016",
+                      "state": 0,
+                      "city": 200,
+                      "employee_id": 199,
+                    }
+                ]
